@@ -1,27 +1,26 @@
 ## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+[![Version]1
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+App just to play around with Angular JS and Laravel5.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Install instructions
 
-## Official Documentation
+* Clone this repo using git clone https://github.com/raysmithdev/Angular-Laravel-note-taker.git in terminal or command line for windows
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+* edit your homestead file by running homestead edit
 
-## Contributing
+* Start up your vm by running homestead up
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+* Set up database for your credentials
 
-## Security Vulnerabilities
+* Run php aritsan migrate to migrate tables
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+* Run php artisan db:seed for some dummy data (optional)
 
-### License
+* Run php artisan serve and your good :)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## Future ideas
+
+Looking to add alot more functionality to this. This is just a start so suggestions welcome :)

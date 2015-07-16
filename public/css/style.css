@@ -1,0 +1,20 @@
+body {
+  padding-top:30px;
+}
+
+form {
+  padding-bottom:20px;
+}
+
+.note {
+  padding-bottom:20px;
+}
+
+.btn-green {
+  background: #5fcf80;
+  color: #fff;
+}
+
+.border-danger {
+  border: 1px solid red!important;
+}

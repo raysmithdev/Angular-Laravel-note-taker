@@ -1,8 +1,7 @@
 ## Laravel PHP Framework
 
-[![Version]1
 
-App just to play around with Angular JS and Laravel5.
+Simple note taking app using Angular JS for frontend and Laravel 5 for backend.
 
 ## Install instructions
 

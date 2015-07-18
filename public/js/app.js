@@ -1,1 +1,1 @@
-var noteApp = angular.module('noteApp', ['mainCtrl', 'noteService']);
+var noteApp = angular.module('noteApp', ['mainCtrl', 'noteService'])

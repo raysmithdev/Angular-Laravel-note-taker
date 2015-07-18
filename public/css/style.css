@@ -1,14 +1,18 @@
 body {
+  background: #f6f9fa;
+  font-family: 'Gotham';
   padding-top:30px;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(http://notes.dev/fonts/GothamRnd-Book.otf);
 }
 
 form {
   padding-bottom:20px;
 }
 
-.note {
-  padding-bottom:20px;
-}
 
 .btn-green {
   background: #5fcf80;
@@ -18,3 +22,41 @@ form {
 .border-danger {
   border: 1px solid red!important;
 }
+
+
+/*
+	Notes
+*/
+
+.notes {
+	padding: 50px 0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.notes .date {
+	font-size: 11px;
+}
+
+.notes .info-box {
+	background: #fff;
+	padding: 20px 20px 30px 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+	border-left-color: #5fcf80;
+}
+	.delete-note {
+		color: red;
+	}
+	.delete-note:hover {
+		text-decoration: none;
+		color: #e15258;
+	}	
+	
+
+
+
+
+

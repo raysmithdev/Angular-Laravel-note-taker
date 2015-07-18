@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'AddSubjectColumnToNotesTable' => $baseDir . '/database/migrations/2015_07_16_171021_add_subject_column_to_notes_table.php',
     'CreateNotesTable' => $baseDir . '/database/migrations/2015_07_16_161746_create_notes_table.php',
+    'CreateUsersTable' => $baseDir . '/database/migrations/2015_07_16_183643_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',

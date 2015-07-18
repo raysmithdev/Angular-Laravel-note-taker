@@ -31,7 +31,7 @@
 
 <body class="container" ng-app="noteApp" ng-controller="mainController">
 
-  <div class="col-md-6 col-md-offset-2">
+  <div class="col-md-6">
 
     <div class="page-header">
 
